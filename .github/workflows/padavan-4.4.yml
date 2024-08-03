@@ -1,9 +1,6 @@
 name: 云编译4.4内核的Padavan
 
 on:
-  schedule:
-    - cron: 0 4 * * 6
-  repository_dispatch:
   workflow_dispatch:
     inputs:
       target:
